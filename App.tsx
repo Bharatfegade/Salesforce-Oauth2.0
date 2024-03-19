@@ -5,6 +5,7 @@ import LoginScreen from './src/screens/login-screen/login-screen';
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react';
 import store, { persistor } from './src/redux/store';
+import HomeScreen from './src/screens/home-screen/home-screen';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,7 +24,8 @@ class App extends Component<AppProps> {
         <PersistGate loading={null} persistor={persistor}>
           <NavigationContainer children>
             <Stack.Navigator children screenOptions={{ headerShown: false }}>
-              <Stack.Screen name='DemoScreen' component={LoginScreen} />
+              <Stack.Screen name='LoginScreen' component={LoginScreen} />
+              <Stack.Screen name='HomeScreen' component={HomeScreen} />
             </Stack.Navigator>
           </NavigationContainer>
         </PersistGate>
