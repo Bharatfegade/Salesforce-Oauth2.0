@@ -9,11 +9,11 @@ To create and work this approach first we have to do some configurations at the 
 
 [Documentation of Salesforce Configuration](https://github.com/Bharatfegade/Salesforce-Oauth2.0/blob/main/salesforce-guide/Salesforce-OAuth2.0-Authentication.pdf)
 
-Replace the client_id and client_secret with your client_crendentials inside clien-secret.ts
+Step 1: Replace the client_id and client_secret with your client_crendentials inside clien-secret.ts
 
-Replace the domain url with your domain url in domain-url.ts
+Step 2: Replace the domain url with your domain url in domain-url.ts
 
-And then run the application.
+Step 3: And then run the application.
 
 
 
